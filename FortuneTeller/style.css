@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Spartan', sans-serif;
+  }
+  
+  .ball {
+     margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 100%;
+    z-index: -1;
+    background: radial-gradient(circle, rgba(224,231,236,1) 26%, rgba(111,121,121,1) 100%);
+    background-size: 400% 400%;
+    animation: gradientShift 20s ease infinite;
+    opacity: 1; 
+    -webkit-box-shadow: 0px 4px 28px 5px #000000; 
+  box-shadow: 0px 4px 28px 5px #000000;
+  }
+  
+  header {
+    background-color: gainsboro;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 40px;
+    padding: 3px 0px 3px 0px;
+  }
+  
+  #answer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  color: #d3e65e;
+  font-size: 25px;
+  }
+  
+  #base {
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(96,96,98,1) 89%, rgba(128,129,129,1) 100%);
+  ;
+    width: 75px;
+    height: 30px;
+    margin: -50px auto 0 auto;
+    border-radius: 7px 7px 0px 0px;
+  }
+  
+  #next {
+    margin-bottom: 50px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
